@@ -1,0 +1,63 @@
+import Vue from 'vue'
+import {
+    Button,
+    Input,
+    Form,
+    FormItem,
+    Message,
+    Container,
+    Header,
+    Aside,
+    Main,
+    Footer,
+    Menu,
+    MenuItem,
+    MenuItemGroup,
+    Submenu,
+    Card,
+    Breadcrumb,
+    BreadcrumbItem,
+    Table,
+    TableColumn,
+    Pagination,
+    MessageBox,
+    Tag,
+    Dialog,
+    Row,
+    Col,
+    Tabs,
+    TabPane,
+    Select,
+    Option,
+    Cascader
+} from 'element-ui'
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.use(Button)
+Vue.use(Input)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Footer)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(Card)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Tag)
+Vue.use(Dialog)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Cascader)

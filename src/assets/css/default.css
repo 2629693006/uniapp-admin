@@ -1,0 +1,68 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+ol,
+ul,
+li,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+.el-menu,
+.el-submenu__title {
+    background-color: transparent!important;
+}
+
+.el-submenu__title {
+    border-bottom: 1px solid #ccc!important;
+}
+
+.el-submenu__title i {
+    color: white;
+}
+
+.el-menu-item {
+    /* background-color: rgb(160, 170, 182)!important; */
+}
+
+.el-menu-item:hover {
+    background-color: rgb(101, 149, 238);
+}
+
+.el-card.is-always-shadow,
+.el-card.is-hover-shadow:focus,
+.el-card.is-hover-shadow:hover {
+    box-shadow: none!important;
+}
+
+.el-select-dropdown {
+    width: 722px;
+}
+
+.el-select-dropdown ul li span {
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
